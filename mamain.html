@@ -8,7 +8,7 @@ img{ border:0}
 #container .cell{ padding:5px 5px 0; border:1px solid #E3E3E3; background:#F5F5F5; margin-top:10px}
 #container p{ line-height:20px; margin-top:5px}
 </style>
-<script src="./jquery-1.7.2.min.js"></script>
+<script src="./js.jquery-1.7.2.min.js"></script>
 <script>
 
 ;(function($){
@@ -286,12 +286,8 @@ var opt={
 	  if(index>=7) index=index%7+1;
 	  var html='';
 	  for(var i=20*(index-1);i<20*(index-1)+20;i++){
-		 var k='';
-		 //for(var ii=0;ii<3-i.toString().length;ii++){
-	        //k+='0';
-		//}
+		var k='';
 		 k+=i;
-	     //var src="http://cued.xunlei.com/demos/publ/img/P_"+k+".jpg";
 	     var src="http://cfdtlee.sinaapp.com/img/"+k+".jpg";
 		 html+='<div class="cell"><img src="'+src+'" /><p>'+k+'</p></div>';
 	  }

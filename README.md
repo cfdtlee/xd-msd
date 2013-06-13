@@ -1,14 +1,12 @@
-#XD-msd西电美食单
-* 截图
-<br />
-![1.PNG](1.PNG)
+##XD-msd西电美食单
+
 
 * 主页地址http://cfdtlee.sinaapp.com/mamain.html
 * Wechat ID(微信公众号)xd-msd
 
 ---
 
-#What is XD-msd
+##What is XD-msd
 * 一个为解决西电人吃饭难，决定难的问题而出现的项目
 * 一个致力于将西电美食网络化的项目
 * 项目包括两个平台：web端和微信端
@@ -16,7 +14,7 @@
 
 ---
 
-#Innovate(创新)
+##Innovate(创新)
 * web端与微信端共用后台（包括数据库、订购页面等）实现一次开发多处使用
 * 以微信ID为身份鉴别标准，大大简化账户管理
 * 通过甜度、辣度、肉量等几个值量化美食的味道和用户的口味，并在推荐时使用优化算法实现最佳推荐
@@ -25,7 +23,7 @@
 
 ---
 
-#Realization(实现)
+##Realization(实现)
 * 项目语言：html、JS、php、SQL
 * web首页通过获取屏幕分辨率计算最优展示列数通过AJAX（发送post请求到后台）动态生成瀑布流
 * 点击web首页的图片或者微信图文消息，发送GET请求至getmoreinfo.php，getmoreinfo.php通过传入的food_id动态生成美食的详情和外卖页面
@@ -34,7 +32,7 @@
 
 ---
 
-#File Statement(文件说明)
+##File Statement(文件说明)
 * img为图片资源，包括部分美食、主页素材
 * js为各个页面所用到的javascript脚本文件
 * db.php为数据库交互的脚本
@@ -44,11 +42,11 @@
 
 ---
 
-#About Author
+##About Author
 * SSSTA 李爽、徐健铭
 
 ---
 
-#Copyleft
+##Copyleft
 * Permission is granted to copy, distribute and/or modify this document under
 the terms of the GNU Free Documentation License

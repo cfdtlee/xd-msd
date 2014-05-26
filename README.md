@@ -43,7 +43,7 @@
 ---
 
 ##About Author
-* SSSTA 李爽、徐健铭
+* SSSTA 李爽、徐健铭、庞鑫
 
 ---
 
